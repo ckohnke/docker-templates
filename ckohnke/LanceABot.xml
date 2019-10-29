@@ -34,8 +34,13 @@
       <Name>POP_PASSWORD</Name>
       <Value>000</Value>
     </Variable>
-  </Environment>
+  </Environment>  
   <Data>
+    <Volume>
+      <HostDir>/mnt/usr/appdata/lance-a-bot</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>r</Mode>
+    </Volume>
   </Data>
   <Banner></Banner>
   <Icon>http://images6.fanpop.com/image/photos/35400000/Lance-Icon-pokemon-guys-35441338-100-100.png</Icon>
