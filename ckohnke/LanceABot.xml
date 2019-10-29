@@ -22,8 +22,20 @@
     <Mode>bridge</Mode>
     <Publish/>
   </Networking>  
-  <Data>
-  </Data>
+  <Environment>
+    <Variable>
+      <Name>GEOS_TOKEN</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>POP_UNAME</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>POP_PASSWORD</Name>
+      <Value></Value>
+    </Variable>
+  </Environment>
   <Banner></Banner>
   <Icon>http://images6.fanpop.com/image/photos/35400000/Lance-Icon-pokemon-guys-35441338-100-100.png</Icon>
 </Containers>
