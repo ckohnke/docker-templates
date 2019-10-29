@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2019-10-28</Date>
+  <Beta>False</Beta>
+  <Category></Category>
+  <Name>Lance-A-Bot</Name>
+  <Project></Project>
+  <Changes></Changes>
+  <Overview>
+    A bot to post to Discord and Google Calendar about Pokemon Events
+  </Overview>
+  <Description>
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/ckohnke/lance-a-bot/</Registry>
+  <GitHub>https://github.com/ckohnke/lance-a-bot-docker</GitHub>
+  <Repository>ckohnke/lance-a-bot</Repository>
+  <Support></Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/LanceABot</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner></Banner>
+  <Icon></Icon>
+</Containers>
