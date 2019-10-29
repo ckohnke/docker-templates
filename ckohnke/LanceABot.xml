@@ -25,17 +25,19 @@
   <Environment>
     <Variable>
       <Name>GEOS_TOKEN</Name>
-      <Value></Value>
+      <Value>000</Value>
     </Variable>
     <Variable>
       <Name>POP_UNAME</Name>
-      <Value></Value>
+      <Value>000</Value>
     </Variable>
     <Variable>
       <Name>POP_PASSWORD</Name>
-      <Value></Value>
+      <Value>000</Value>
     </Variable>
   </Environment>
+  <Data>
+  </Data>
   <Banner></Banner>
   <Icon>http://images6.fanpop.com/image/photos/35400000/Lance-Icon-pokemon-guys-35441338-100-100.png</Icon>
 </Containers>
