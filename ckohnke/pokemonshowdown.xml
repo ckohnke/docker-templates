@@ -17,17 +17,16 @@
   <Support></Support>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
-  <Networking>
+    <Networking>
     <Mode>bridge</Mode>
     <Publish>
       <Port>
         <HostPort>8000</HostPort>
         <ContainerPort>8000</ContainerPort>
         <Protocol>tcp</Protocol>
-      </Port>		  
-    <Publish/>
-  </Networking>  
-  <Environment>
+      </Port>
+    </Publish>
+  </Networking>
   </Environment>  
   <Data>
     <Volume>
