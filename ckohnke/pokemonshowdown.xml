@@ -37,6 +37,6 @@
     </Volume>
   </Data>
   <Banner></Banner>
-  <WebUI>http://[IP]:[PORT:8112]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8000]/</WebUI>
   <Icon>https://avatars2.githubusercontent.com/u/5144145</Icon>
 </Containers>
