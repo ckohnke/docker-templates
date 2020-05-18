@@ -27,7 +27,8 @@
       </Port>
     </Publish>
   </Networking>
-  </Environment>  
+<Environment>  
+</Environment>  
   <Data>
     <Volume>
       <HostDir>/mnt/usr/appdata/pokemon-showdown</HostDir>
