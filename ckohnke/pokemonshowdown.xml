@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2020-05-18</Date>
+  <Beta>False</Beta>
+  <Category></Category>
+  <Name>Pokemon-Showdown</Name>
+  <Project></Project>
+  <Changes></Changes>
+  <Overview>
+    A custom Pokemon Showdown server
+  </Overview>
+  <Description>
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/ckohnke/pokemon-showdown/</Registry>
+  <GitHub>https://github.com/ckohnke/pokemon-showdown</GitHub>
+  <Repository>ckohnke/pokemon-showdown</Repository>
+  <Support></Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8000</HostPort>
+        <ContainerPort>8000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>		  
+    <Publish/>
+  </Networking>  
+  <Environment>
+  </Environment>  
+  <Data>
+    <Volume>
+      <HostDir>/mnt/usr/appdata/pokemon-showdown</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner></Banner>
+  <WebUI>http://[IP]:[PORT:8112]/</WebUI>
+  <Icon>https://avatars2.githubusercontent.com/u/5144145</Icon>
+</Containers>
