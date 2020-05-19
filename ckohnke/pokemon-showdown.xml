@@ -32,7 +32,7 @@
   <Data>
     <Volume>
       <HostDir>/mnt/usr/appdata/pokemon-showdown</HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <ContainerDir>/pokemon-showdown</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
